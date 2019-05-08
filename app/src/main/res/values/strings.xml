@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BoxThing</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_floating_widget">Create Floating Widget</string>
+    <string name="draw_other_app_permission_denied">Draw Over App Permission Denied</string>
+    <string name="floating_widget_label">Floating Widget Whoot</string>
+    <string name="floating_widget_details">It\'s lit</string>
+</resources>

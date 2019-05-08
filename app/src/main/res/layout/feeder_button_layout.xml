@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="120dp"
+    android:padding="12dp"
+    android:layout_height="wrap_content">
+
+  <ImageView
+      android:id="@+id/color_background"
+      android:layout_width="80dp"
+      android:layout_height="wrap_content"
+      android:scaleType="fitEnd"
+      android:adjustViewBounds="true"
+      android:layout_centerHorizontal="true"
+      tools:src="@drawable/circle_shape_coral"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAlignment="center"
+      android:gravity="center"
+      android:layout_alignTop="@+id/color_background"
+      android:layout_alignBottom="@+id/color_background"
+      android:layout_alignStart="@+id/color_background"
+      android:layout_alignEnd="@+id/color_background"
+      android:textSize="24sp"
+      tools:text="1"/>
+
+  <TextView
+      android:layout_below="@+id/color_background"
+      android:layout_width="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_height="wrap_content"
+      android:textAlignment="center"
+      android:gravity="center"
+      android:layout_marginTop="12dp"
+      android:textSize="18sp"
+      tools:text="Friends"/>
+
+</RelativeLayout>
